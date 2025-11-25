@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  padding: 20px;
+}
+
+#video-library {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.video-card {
+  background: #222;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.video-card video {
+  width: 100%;
+  border-radius: 10px;
+}
