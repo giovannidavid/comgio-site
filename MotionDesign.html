@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comgio - Motion Design</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motion Design Videos</title>
+  <link rel="stylesheet" href="style.css">
+<!-- CSS spécifique vidéos -->
 </head>
 <body>
-    <!-- BACKGROUND ANIMÉ -->
-    <div class="animated-bg"></div>
 
-    <!-- NAVBAR -->
-    <nav class="navbar">
-        <a href="index.html"><img src="logo/logoo.png" alt="Comgio Logo" class="logo"></a>
-        <ul class="nav-link">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li class="service">
-                <a>Services</a>
-                <ul class="dropdown">
-                    <li><a href="WebDesign.html">Web Design</a></li>
-                    <li><a href="MotionDesign.html">Motion Design</a></li>
-                    <li><a href="GraphicDesign.html">Graphic Design</a></li>
-                </ul>
-            </li>
-            <li><a href="Contact.html">Contact</a></li>
+  <!-- BACKGROUND ANIMÉ -->
+  <div class="animated-bg"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <img src="logo/logoo.png" alt="Logo" class="logo">
+    <ul class="nav-link">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="GraphicDesign.html">Graphic Design</a></li>
+      <li class="service">
+        <a>Services</a>
+        <ul class="dropdown">
+          <li><a href="MotionDesign.html">Motion Design</a></li>
+          <li><a href="WebDesign.html">Web Design</a></li>
         </ul>
-    </nav>
+      </li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="About.html">À propos</a></li>
+    </ul>
+  </nav>
 
-    <!-- PORTFOLIO MOTION DESIGN -->
-    <section class="portfolio-section">
-        <h2 class="section-title">Portfolio Motion Design</h2>
-        <div id="video-library" class="portfolio-grid"></div>
-    </section>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Bibliothèque Motion Design</h1>
+      <p>Découvrez tous nos projets Motion Design disponibles ici.</p>
+    </div>
+  </section>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-        <p>&copy; 2024 Comgio - Agence Créative Digitale. Tous droits réservés.</p>
-    </footer>
+  <!-- VIDEO LIBRARY -->
+  <div id="video-library"></div>
 
-    <!-- SCRIPTS -->
-    <script src="video.js"></script>
-    
+  <!-- FOOTER -->
+  <footer class="footer">
+    &copy; 2025 Comgio. Tous droits réservés.
+  </footer>
+
+  <!-- Script pour charger les vidéos depuis ton backend -->
+  <script src="video.js"></script>
 </body>
 </html>
+
